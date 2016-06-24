@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Facebook Integration</string>
+    <string name="facebook_app_id">131135957308118</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+</resources>

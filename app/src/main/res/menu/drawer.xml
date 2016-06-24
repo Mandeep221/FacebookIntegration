@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/cam"
+            android:checked="false"
+            android:icon="@drawable/cam"
+            android:title="Import" />
+
+        <item
+            android:id="@+id/gallery"
+            android:checked="false"
+            android:icon="@drawable/gall"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/tools"
+            android:checked="false"
+            android:icon="@drawable/support"
+            android:title="Setting" />
+
+    </group>
+
+    <item
+        android:layout_gravity="bottom"
+        android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/send"
+                android:icon="@drawable/send"
+                android:title="Send" />
+        </menu>
+    </item>
+</menu>
